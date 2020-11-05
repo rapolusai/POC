@@ -24,6 +24,8 @@ public class HomePageCntroller {
 //	@RequestMapping(value="/register", method=RequestMethod.POST)
 	@PostMapping("/register")
 	public String registerPage() {
+		System.out.println("Sai");
 		return "Register";
 	}
+
 }
